@@ -47,18 +47,19 @@ nav ul li a:hover {
     background-color: rgb(85, 84, 84);
     color: rgb(190, 162, 3);
     border-radius: 5px;
+
 }
 
 main {
     display: flex;
+    align-items: flex-start;
   }
 
 aside {
-    flex: 30%;
-    display: block;
+    flex: 1;
+    width: 30%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 75px;
-    flex: 30%;
+    margin-left: 50px;
     color: rgb(190, 190, 190);
 }
 
@@ -67,15 +68,127 @@ aside h2 {
     margin-bottom: 250px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+    margin-top: 90px;
+  }
+
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 section {
-    flex: 70%;
+    flex: 3;
     padding: 20px;
-    margin-top: 90px;
+    margin: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: whitesmoke;
+    color: rgb(209, 207, 207);
+    
+}
+
+  p {
+    width: 100%;
+    background-color: rgb(128,128,128, 0.60);
+    padding: 10px;
+    border-radius: 15px;
+   
+
   }
+
+  h3 { 
+    display:contents;
+    width: 100%;
+    background-color: rgb(128,128,128, 0.60);
+    padding: 10px;
+    border-radius: 15px;
+
+ }
+
+ ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+ li {
+    margin-bottom: 10px;
+ }
+
+ #about
+ #work
+ #contact-me {
+    margin-bottom: 50px
+ }
+
+a img:hover {
+    opacity: 80%;
+}
+
+
+
+a[href="https://www.linkedin.com/in/geoffereyeidem03/"] {
+    color: rgb(207, 159, 233);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+a[href="https://www.linkedin.com/in/geoffereyeidem03/"]:hover {
+    color: blue;
+}
+
+
+/* Desktop screens */
+@media screen and (min-width: 1200px) {
+
+    aside {
+      width: 30%;
+    }
+  
+    .content {
+      flex: 70%;
+    }
+  
+  }
+  
+  /* Tablet screens */
+  @media screen and (max-width: 1199px) and (min-width: 768px) {
+  
+    aside {
+      width: 100%;
+      margin-left: 10px;
+    }
+  
+    .content {
+      flex: 100%;
+    }
+  
+  }
+  
+  /* Mobile screens */
+  @media screen and (max-width: 767px) {
+  
+    aside {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    /* Set content to be 100% width */
+    .content {
+      flex: 100%;
+    }
+  
+    section {
+      margin: 20px 0;
+    }
+
+    aside h2 {
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+  
+  }
+  
