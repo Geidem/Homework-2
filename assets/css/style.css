@@ -164,7 +164,7 @@ a[href="https://www.linkedin.com/in/geoffereyeidem03/"]:hover {
   
     aside {
       width: 100%;
-      margin-left: 10px;
+      margin-left: 0px;
     }
   
     .content {
@@ -184,6 +184,7 @@ a[href="https://www.linkedin.com/in/geoffereyeidem03/"]:hover {
     /* Set content to be 100% width */
     .content {
       flex: 100%;
+      margin-top: 30px;
     }
   
     section {
