@@ -66,6 +66,11 @@ aside {
 aside h2 {
     margin-top: 125px;
     margin-bottom: 250px;
+    
+}
+
+aside a {
+    color: lightgray;
 }
 
 .content {
