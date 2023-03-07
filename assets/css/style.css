@@ -121,6 +121,10 @@ section {
 
  li {
     margin-bottom: 10px;
+    margin-right: 30px;
+    display: inline-block;
+    justify-content:space-evenly;
+    text-align: center;
  }
 
  #about
@@ -145,6 +149,7 @@ a[href="https://www.linkedin.com/in/geoffereyeidem03/"] {
 a[href="https://www.linkedin.com/in/geoffereyeidem03/"]:hover {
     color: blue;
 }
+
 
 
 /* Desktop screens */
