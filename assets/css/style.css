@@ -6,7 +6,7 @@
 body {
     font-family: arial, sans-serif;
     margin: 0;
-    background-image: url("/assets/Images/Blacksand.jpg");
+    background-image: url("./assets/Images/Blacksand.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-color: rgb(0, 0, 0, 0.4);
