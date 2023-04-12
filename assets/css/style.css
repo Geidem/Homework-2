@@ -149,6 +149,9 @@ a[href="https://www.linkedin.com/in/geoffereyeidem03/"] {
 a[href="https://www.linkedin.com/in/geoffereyeidem03/"]:hover {
     color: blue;
 }
+ #work img {
+  border-radius: 5px;
+}
 
 
 
